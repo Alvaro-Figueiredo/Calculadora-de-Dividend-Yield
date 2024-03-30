@@ -10,9 +10,9 @@ main()
   scanf ("%f", &dividendos);
 
 rentabilidadeanual = (dividendos * 12 * 100) / precoativo;
- 
+
  rentabilidademensal = rentabilidadeanual / 12;
 
- printf ("O Dividend Yield anual é de: %f\n\n", rentabilidadeanual);
- printf ("O Dividend Yield mensal é de: %f" rentabilidademensal);
+ printf ("\nO Dividend Yield anual e de: %.2f%%\n\n", rentabilidadeanual);
+ printf ("O Dividend Yield mensal e de: %.2f%%\n\n\n", rentabilidademensal);
  }
